@@ -13,6 +13,7 @@ Imports:
     stringr,
     magrittr,
     purrr,
-    readxl
+    readxl,
+    magick
 LazyData: true
 RoxygenNote: 6.1.1
