@@ -8,6 +8,7 @@
 #'
 #' @importFrom dplyr select_all
 #' @importFrom stringr str_to_lower str_replace_all str_remove_all
+#' @import magrittr
 #'
 #' @export
 
