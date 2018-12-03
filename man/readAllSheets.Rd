@@ -4,12 +4,10 @@
 \alias{readAllSheets}
 \title{Read all sheets from an xlsx file into R as a list}
 \usage{
-readAllSheets(filename, ...)
+readAllSheets(filename)
 }
 \arguments{
 \item{filename}{the path of an \code{xlsx} file}
-
-\item{...}{additional arguments passed to read_xlsx}
 }
 \value{
 a list of data frames: one for each sheet in the source file
