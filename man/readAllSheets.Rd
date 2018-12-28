@@ -2,18 +2,18 @@
 % Please edit documentation in R/readAllSheets.R
 \name{readAllSheets}
 \alias{readAllSheets}
-\title{Read all sheets from an xlsx file into R as a list}
+\title{Read all sheets from an xlsx or xls file into R as a list}
 \usage{
 readAllSheets(filename, ...)
 }
 \arguments{
-\item{filename}{the path of an \code{xlsx} file.}
+\item{filename}{the path of an \code{xlsx} or \code{xls} file.}
 
-\item{...}{additional arguments to be passed to \code{read_xlsx}.}
+\item{...}{additional arguments to be passed to \link[readxl]{read_xlsx}.}
 }
 \value{
 a list of data frames: one for each sheet in the source file
 }
 \description{
-Read all sheets from an xlsx file into R as a list
+Simple function which reads all sheets from an \code{xlsx} or \code{xls} file into a list
 }
